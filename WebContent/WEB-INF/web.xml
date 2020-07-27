@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN" "http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+<web-app id="WebApp_ID">
+	<display-name>ServeletProject</display-name>
+	
+	
+	<!-- MENU BAR (URL menu MAPPPED to MenuServlet)-->
+	<servlet-mapping>
+		<servlet-name>menuBar</servlet-name>
+		<url-pattern>/menu</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>menuBar</servlet-name>
+		<servlet-class>com.servletproject.controller.MenuServlet</servlet-class>
+	</servlet>
+	
+	
+		<!--  (URL register MAPPPED to MyServlet)-->
+	<servlet-mapping> 
+        <servlet-name>sagar</servlet-name>
+        <url-pattern>/register</url-pattern>
+    </servlet-mapping>
+	<servlet>
+		<servlet-name>sagar</servlet-name>
+        <servlet-class>com.servletproject.controller.MyServlet</servlet-class>
+  </servlet>
+
+    
+    
+		<!--  (URL login MAPPPED to LoginServlet)-->
+	<servlet-mapping>
+		<servlet-name>login1</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet>
+		<servlet-name>login1</servlet-name>
+		<servlet-class>com.servletproject.controller.LoginServlet</servlet-class>
+	</servlet>	
+	
+	
+	
+	<servlet-mapping>
+		<servlet-name>index</servlet-name>
+		<url-pattern>/index1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>index</servlet-name>
+		<servlet-class>com.servletproject.controller.IndexServlet</servlet-class>
+	</servlet>
+	
+
+
+	<servlet>
+		<servlet-name>view</servlet-name>
+		<description></description>
+		<servlet-class>com.servletproject.controller.ViewServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>view</servlet-name>
+		<url-pattern>/viewServlet</url-pattern>
+	</servlet-mapping>
+	
+	
+	<servlet-mapping>
+		<servlet-name>edit</servlet-name>
+		<url-pattern>/editServlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>edit</servlet-name>
+		<servlet-class>com.servletproject.controller.EditServlet</servlet-class>
+	</servlet>
+	
+	<servlet>
+		<servlet-name>change</servlet-name>
+		<servlet-class>com.servletproject.controller.ChangePassword</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>change</servlet-name>
+		<url-pattern>/changePassword</url-pattern>
+	</servlet-mapping>
+	
+	
+	<welcome-file-list>
+		<welcome-file>index1</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+	
+	
+</web-app>
+
