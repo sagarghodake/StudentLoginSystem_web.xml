@@ -1,10 +1,11 @@
 # StudentLoginSystem_web.xml
-I am #Sagar Ghodake going to present & deploy J2EE project,
-This is to familiarize you with my new project, A simple #RegisterLoginSystemApplication" basically a dynamic web application using #java #J2SE #J2EE #project.
-
+------------
+I am #Sagar Ghodake going to present & deploy J2EE project,This is to familiarize you with my new project, A simple #RegisterLoginSystemApplication" basically a dynamic web application using #java #J2SE #J2EE #project.
+------------
 Description:
 
 #TechnologyUsed:
+------------
 
 #FrontEnd : HTML
 
@@ -17,7 +18,7 @@ Description:
 #Type: Dynamic Web Application
 
 All functionality i.e #CRUD operations implemented #DAOPattern using #JDBC to connect#SingletonPatternn) java #Application & #Database(Backend)
-
+------------
 ![WhatsApp Image 2020-07-25 at 5 35 57 PM](https://user-images.githubusercontent.com/60310009/90120138-0e108880-dd78-11ea-8cbd-8e0fc1c17ae0.jpeg)
 LoginPage.html
 
